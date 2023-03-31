@@ -12,7 +12,7 @@ router
 
 router
     .route('/:id')
-    .get(usersController.userTransactions);
+    .get(usersController.getUserInformation);
 //     .put(usersController.updateUser)
 //     .delete(usersController.deleteUser);
 
