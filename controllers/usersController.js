@@ -28,7 +28,7 @@ exports.getUserInformation = (req, res) => {
          "transaction_id as transactionId",
          "quantity as numItems",
          "transactions.datetime as date",
-         "budget_for_meat_this_month as mealBudget",
+         "budget_for_meat_this_month as meatBudget",
          "budget_for_dairy_this_month as dairyBudget",
          "budget_for_vegetables_this_month as veggieBudget",
          "budget_for_drinks_this_month as drinkBudget",
